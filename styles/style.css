@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  color: #192f60;
+}
+
+/* Navbar */
+nav {
+  height: 80px;
+  background-color: #ce0505;
+}
+
+.nav-logo {
+  padding-left: 25px;
+  float: left;
+}
+
+.nav-logo svg {
+  height: 76px;
+  width: 50px;
+  stroke: rgba(0, 0, 0, 0.227);
+  fill: rgba(255, 255, 255, 0.907);
+}
+
+.nav-list-item {
+  float: right;
+  margin-right: 75px;
+  margin-top: 17px;
+}
+.nav-list-item li {
+  float: left;
+  padding: 13px 13px;
+  font-size: 18px;
+  border-radius: 3px;
+  list-style-type: none;
+}
+.nav-list-item li a {
+  color: rgba(255, 255, 255, 0.907);
+  text-decoration: none;
+}
+.nav-list-item li:hover {
+  border: 1px solid rgba(255, 255, 255, 0.907);
+  border-radius: 5px;
+}
+
+/* Header-1 */
+.main-header-1-breakfast {
+  color: #192f60;
+  font-size: 36px;
+  text-align: left;
+  letter-spacing: 0px;
+  margin-top: 25px;
+  margin-left: 65px;
+  margin-bottom: 10px;
+}
+/* Content Section Breakfast ----Begins */
+.main-content-breakfast {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+/* Filter */
+.filter {
+  height: 700px;
+  width: 300px;
+  margin-left: 55px;
+  padding: 20px;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.filter-header-4 {
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.filter-location-label {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.filter-location-dropdown {
+  display: block;
+  height: 35px;
+  width: 200px;
+  text-align: center;
+  font-size: medium;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 2px solid #192f60;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.filter-location-dropdown:hover {
+  background-color: #192f6070;
+}
+
+.filter-separator {
+  margin: 10px;
+}
+
+.filter-cuisine-title {
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  font-weight: 100;
+}
+
+.filter-cuisine-input {
+  margin-right: 10px;
+}
+
+.filter-cuisine-title {
+  margin-left: 5px;
+}
+
+.filter-cost-for-two-title {
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  font-weight: 100;
+}
+
+.filter-cost-for-two-input {
+  margin-right: 10px;
+}
+
+.filter-cost-for-two-label {
+  margin-left: 5px;
+}
+
+.filter-sortby {
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  font-weight: 100;
+}
+
+.filter-sortby-input {
+  margin-right: 10px;
+}
+
+.filter-sortby-label {
+  margin-left: 5px;
+}
+
+.filter-form-apply {
+  height: 35px;
+  width: 180px;
+  text-align: center;
+  font-size: medium;
+  background-color: #192f60;
+  color: #eee;
+  border-radius: 4px;
+  border: 2px solid #192f60;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.filter-form-apply:hover {
+  background-color: #192f60d6;
+}
+
+/* Content Section Breakfast ----Ends */
+.display-card {
+  height: 900px;
+  width: 75vw;
+  margin-left: 30px;
+}
+
+.outer-card {
+  height: 250px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.card-top {
+  display: flex;
+}
+
+.card-image img {
+  height: 90px;
+  width: 100px;
+  border-radius: 10px;
+  margin: 25px;
+}
+
+.card-content {
+  margin: 25px;
+}
+.card-header-5 {
+  text-transform: uppercase;
+}
+
+.display-card hr {
+  width: 80%;
+  margin-left: 25px;
+}
+
+.card-bottom {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.card-bottom-title-1 {
+  height: 90x;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-bottom-title-2 {
+  height: 90x;
+  width: 510px;
+  display: flex;
+  flex-direction: column;
+}
+.card-sub-title {
+  text-transform: uppercase;
+}
+
+.card-sub-para::before {
+  content: ": ";
+  margin-left: 100px;
+}
+
+/* Pagination */
+.pagination {
+  height: 200px;
+  width: 55%;
+  display: flex;
+  justify-content: center;
+}
+.pagination-number {
+  height: 25px;
+  width: 20px;
+  margin: 5px;
+  border-radius: 3px;
+  border: 2px solid #192f60;
+  text-align: center;
+}
+.pagination-number:hover {
+  background-color: #192f6070;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(41, 43, 43, 0.155);
+  padding: 25px;
+}
+
+.header-6 {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+}
+.para-footer {
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+}
+
+footer a:active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+footer svg {
+  height: 40px;
+  width: 30px;
+  margin: 4px;
+}
